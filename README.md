@@ -1,7 +1,21 @@
-Proxies to [eskomsepush api](https://eskomsepush.gumroad.com/l/api) incase you need to use it in a web application.  
-Currently only supports cloudflare workers, if you want support for another cloudprovider, send a issue.  
-Provide your api key into the token.js.
-For example:
+# Proxy for EskomSePush API
+
+This repository contains a proxy server that allows you to use [EskomSePush API](https://eskomsepush.gumroad.com/l/api) in a web application. Currently, the proxy server only supports Cloudflare Workers. If you need support for another cloud provider, please feel free to submit an issue.
+
+Getting Started
+To use this proxy server, you'll need to provide your API key into the token.js file. Once you've done that, you can deploy the proxy server to Cloudflare Workers.
+
+## Deployment
+
+To deploy the proxy server to Cloudflare Workers, you can use the wrangler CLI. Once you have installed the CLI, you can run the following command:
+
+```
+wrangler publish
+```
+
+---
+
+Example token.js
 
 ```js
 export default 'xxxxxxxx-xxxxxxxx-xxxxxxxx-xxxxxxxx';
