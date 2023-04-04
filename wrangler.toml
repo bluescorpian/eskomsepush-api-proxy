@@ -1,0 +1,4 @@
+name = "eskomsepush-api-proxy"
+main = "deployments/cf-workers.js"
+
+compatibility_date = "2023-04-03"
