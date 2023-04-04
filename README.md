@@ -19,3 +19,5 @@ Example token.js
 ```js
 export default 'xxxxxxxx-xxxxxxxx-xxxxxxxx-xxxxxxxx';
 ```
+
+**This project is not affiliated with EskomSePush.**
