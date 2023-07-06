@@ -1,16 +1,17 @@
 {
-  "name": "eskomsepush-api-proxy",
-  "version": "1.0.0",
-  "description": "Proxies eskomsepush api using different hosting methods",
-  "main": "worker.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev-cf-workers": "wrangler dev"
-  },
-  "keywords": [],
-  "author": "bluescorpian",
-  "license": "MIT",
-  "optionalDependencies": {
-    "wrangler": "^2.14.0"
-  }
+	"name": "eskomsepush-api-proxy",
+	"version": "1.0.0",
+	"description": "Proxies eskomsepush api using different hosting methods",
+	"main": "worker.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev-cf-workers": "wrangler dev",
+		"deploy-cf-workers": "wrangler publish"
+	},
+	"keywords": [],
+	"author": "bluescorpian",
+	"license": "MIT",
+	"optionalDependencies": {
+		"wrangler": "^2.20.0"
+	}
 }
